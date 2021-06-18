@@ -64,3 +64,33 @@ background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(244,0,0,1) 0%, rgba(2
 .color-line-bottom{
   background-color: gray;
 }
+
+
+@media(max-width: 768px){
+  .name{
+    font-size:70px;
+  }
+
+  .sub{
+    font-size:50px;
+  }
+
+  .desc{
+    font-size:20px;
+  }
+
+  .mar-b{
+    margin-top: 10px;
+  }
+
+  .mt-top{
+    margin-top: 60px;
+  }
+
+  .sub-s{
+    font-size:30px;
+  }
+
+  
+  
+}

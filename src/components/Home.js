@@ -10,19 +10,19 @@ export default function Home() {
 
         <div className="mar-b">
 
-            <div className="container mt-5">
+            <div className="container mt-5 ">
                 <h1 className="text-white name ">Ariel Ortiz</h1>
                 <h1 className="color-t sub">Full stack developer</h1>
-                <h1 className="color-t">Experience development React Native apps and mobile games with Unity.</h1>
+                <h1 className="color-t desc">Experience development React Native apps and mobile games with Unity.</h1>
             </div>
 
             <div className="container mt-top">
-                <h1 className="text-white sub">Projects</h1>
+                <h1 className="text-white sub sub-s">Projects</h1>
 
-                <div className="card-deck mt-3">
+                <div className="row mt-3">
 
                 
-                    <div className="card col-sm-4 card-color">
+                    <div className="card col-md card-color m-2">
                         <img className="card-img-top" src={process.env.PUBLIC_URL +"/images/note_w.png"} alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title text-white">Your Note</h5>
@@ -31,7 +31,7 @@ export default function Home() {
                             <a href={"https://play.google.com/store/apps/details?id=com.WaveGamesPlay.YourNote"} className="btn btn-primary">Go to website</a>
                         </div>
                     </div>
-                    <div className="card col-sm-4 card-color">
+                    <div className="card col-md card-color m-2">
                         <img className="card-img-top" src={process.env.PUBLIC_URL +"/images/incomenify_w.png"} alt="..." />
                         <div className="card-body">
                             <h5 className="card-title text-white">Incomenify</h5>
@@ -40,7 +40,7 @@ export default function Home() {
                             <a href={"https://play.google.com/store/apps/details?id=com.WaveGamesPlay.Incomenify"} className="btn btn-primary">Go to website</a>
                         </div>
                     </div>
-                    <div className="card col-sm-4 card-color">
+                    <div className="card col-md card-color m-2">
                         <img className="card-img-top" src={process.env.PUBLIC_URL +"/images/ufo_w.png"} alt="..." />
                         <div className="card-body">
                             <h5 className="card-title text-white">Crazy Ufo's</h5>
@@ -52,9 +52,9 @@ export default function Home() {
 
 
 
-                <div className="card-deck mt-5">
+                <div className="row ">
                    
-                    <div className="card col-sm-4 card-color">
+                    <div className="card col-md card-color m-2">
                         <img className="card-img-top" src={process.env.PUBLIC_URL +"/images/piggy_w.png"} alt="..." />
                         <div className="card-body">
                             <h5 className="card-title text-white">Piggy Jumper</h5>
@@ -63,7 +63,7 @@ export default function Home() {
                             <a href={"https://play.google.com/store/apps/details?id=com.WaveGamesPlay.PiggyJumper"} className="btn btn-primary">Go to website</a>
                         </div>
                     </div>
-                    <div className="card col-sm-4 card-color">
+                    <div className="card col-md card-color m-2">
                         <img className="card-img-top" src={process.env.PUBLIC_URL +"/images/hollow_w.png"} alt="..." />
                         <div className="card-body">
                             <h5 className="card-title text-white">Hollow Pumpkin</h5>
