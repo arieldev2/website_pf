@@ -1,10 +1,10 @@
 export const projects = [
     {
         id: 0,
-        img: "/images/observatory.png",
-        title: "Observatory Presentation",
-        description: "Observatory Presentation was created with SwiftUI for macOS, you can create minimalist presentations by adding text, 3d models, images and videos.",
-        url: "https://apps.apple.com/us/app/observatory-presentation/id1585725474",
+        img: "/images/usdz.png",
+        title: "USDZ 3D Viewer",
+        description: "This USDZ 3D Viewer was created with SwiftUI, you can view your 3D USDZ models, change the background and change the lighting.",
+        url: "https://apps.apple.com/us/app/usdz-3d-viewer/id1587642013#?platform=iphone",
         buttonText: "Go to App Store"
     },
     {
@@ -17,6 +17,14 @@ export const projects = [
     },
     {
         id: 2,
+        img: "/images/observatory.png",
+        title: "Observatory Presentation",
+        description: "Observatory Presentation was created with SwiftUI for macOS, you can create minimalist presentations by adding text, 3d models, images and videos.",
+        url: "https://apps.apple.com/us/app/observatory-presentation/id1585725474",
+        buttonText: "Go to App Store"
+    },
+    {
+        id: 3,
         img: "/images/incomenify_w.png",
         title: "Incomenify",
         description: "App for Income management, made with React Native.",
@@ -24,7 +32,7 @@ export const projects = [
         buttonText: "Go to Play Store"
     },
     {
-        id: 3,
+        id: 4,
         img: "/images/note_w.png",
         title: "Your Note",
         description: "App for notes, made with React Native.",
@@ -32,7 +40,7 @@ export const projects = [
         buttonText: "Go to Play Store"
     },
     {
-        id: 4,
+        id: 5,
         img: "/images/piggy_w.png",
         title: "Piggy Jumper",
         description: "Jump over obstacles to get the highest score, made with Unity.",
@@ -40,7 +48,7 @@ export const projects = [
         buttonText: "Go to Play Store"
     },
     {
-        id: 5,
+        id: 6,
         img: "/images/hollow_w.png",
         title: "Hollow Pumpkin",
         description: "Destroy all the Pumpkins before they catch you, made with Unity.",
@@ -48,7 +56,7 @@ export const projects = [
         buttonText: "Go to Play Store"
     },
     {
-        id: 6,
+        id: 7,
         img: "/images/ufo_w.png",
         title: "Crazy Ufo's",
         description: "Destroy all the Ufo's before they destroy the planet, made with Unity.",
