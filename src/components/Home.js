@@ -18,7 +18,7 @@ export default function Home() {
                 <div className="row">
                 <div className="col-md ">
           <h1 className="mb-3 display-3">Mobile developer</h1>
-                <p className="text-about">Ariel Ortiz - Experience development React Native apps, iOS(Swift), and mobile games with Unity.</p>
+                <p className="text-about">Hello, my name is Ariel Ortiz and I’m a Mobile developer. I studied engineering in multimedia, I have experience creating mobile apps with Swift(iOS), React Native and Unity. I’m always learning new things to expand my knowledge.</p>
           </div>
   
           <div className="col-md text-center mt-4">

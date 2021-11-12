@@ -35,7 +35,7 @@ export const projects = [
         id: 4,
         img: "/images/note_w.png",
         title: "Your Note",
-        description: "App for notes, made with React Native.",
+        description: "Notes App, made with React Native for android.",
         url: "https://play.google.com/store/apps/details?id=com.WaveGamesPlay.YourNote",
         buttonText: "Go to Play Store"
     },
