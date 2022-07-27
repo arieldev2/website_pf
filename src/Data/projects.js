@@ -34,7 +34,7 @@ export const projects = [
     },
     {
         id: 4,
-        img: "/images/note_t.png",
+        img: "/images/nt.png",
         title: "Note Thread",
         description: "This note app was created with SwiftUI for iOS, you can create a note, edit note, delete note, check notes, select by categories and sort by checked and unchecked.",
         url: "https://apps.apple.com/us/app/note-thread/id1583119687",
