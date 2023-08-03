@@ -18,7 +18,7 @@ export default function Home() {
                 <div className="row">
                 <div className="col-md ">
           <h1 className="mb-3 display-3">iOS developer</h1>
-                <p className="text-about">Hello, my name is Ariel Ortiz and I’m a iOS developer. I studied engineering in multimedia, I have experience creating mobile apps with Swift(iOS) and I also make video games with Unity. I’m always learning new things to expand my knowledge.</p>
+                <p className="text-about">Hello, my name is Ariel Ortiz and I’m a iOS developer. I studied engineering in multimedia, I have experience creating mobile apps with Swift and Objective-C. I’m always learning new things to expand my knowledge.</p>
           </div>
   
           <div className="col-md text-center mt-4">
@@ -61,39 +61,6 @@ export default function Home() {
                     
             </div>
 
-
-            <div className="container mt-top2">
-                <h1 className="text-white sub sub-s">Video games</h1>
-
-                <div className="row mt-3">
-
-                { games.map(item =>  (
-                
-                <div className="col-md-4 p-1" key={item.id}>
-                    <div className="card  card-color " >
-                        <img className="card-img-top" src={process.env.PUBLIC_URL +item.img} alt="..."/>
-                        <div className="card-body">
-                            <h5 className="card-title text-white">{item.title}</h5>
-                            <p className="text-white">{item.description}</p>
-
-                            <a href={item.url} className="btn btn-primary">{item.buttonText}</a>
-                        </div>
-                    </div>
-                    </div>
-                    
-
-                    ))
-                   
-                }
-
-                  
-                </div>
-
-
-
-                    
-                    
-            </div>
 
 
 
