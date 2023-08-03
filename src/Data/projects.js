@@ -27,7 +27,7 @@ export const projects = [
         id: 3,
         img: "/images/usdz.png",
         title: "USDZ 3D Viewer",
-        description: "USDZ 3D Viewer was created with SwiftUI, you can view your 3D USDZ models, change the background and change the lighting.",
+        description: "USDZ 3D Viewer was created with SwiftUI, you can view your 3D USDZ models, change the background and change the lighting with HDRI.",
         url: "https://apps.apple.com/us/app/usdz-3d-viewer/id1587642013#?platform=iphone",
         buttonText: "Go to App Store"
     },
@@ -52,29 +52,3 @@ export const projects = [
 ]
 
 
-export const games = [
-    {
-        id: 0,
-        img: "/images/piggy_w.png",
-        title: "Piggy Jumper",
-        description: "Jump over obstacles to get the highest score, made with Unity.",
-        url: "https://play.google.com/store/apps/details?id=com.WaveGamesPlay.PiggyJumper",
-        buttonText: "Go to Play Store"
-    },
-    {
-        id: 1,
-        img: "/images/hollow_w.png",
-        title: "Hollow Pumpkin",
-        description: "Destroy all the Pumpkins before they catch you, made with Unity.",
-        url: "https://play.google.com/store/apps/details?id=com.WaveGamesPlay.HollowPumpkin",
-        buttonText: "Go to Play Store"
-    },
-    {
-        id: 2,
-        img: "/images/ufo_w.png",
-        title: "Crazy Ufo's",
-        description: "Destroy all the Ufo's before they destroy the planet, made with Unity.",
-        url: "https://play.google.com/store/apps/details?id=com.WaveGamesPlay.CRAZYUFOs",
-        buttonText: "Go to Play Store"
-    }
-]
