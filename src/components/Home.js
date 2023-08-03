@@ -22,7 +22,7 @@ export default function Home() {
           </div>
   
           <div className="col-md text-center mt-4">
-                <a href="https://github.com/Ariel0123" className="align fs-4"><FaGithub size={35} className="p-1"/> GitHub</a>
+                <a href="https://github.com/arieldev2" className="align fs-4"><FaGithub size={35} className="p-1"/> GitHub</a>
                 <a href="https://www.linkedin.com/in/ariel-ortiz-b66979186/" className="align fs-4"><FaLinkedin size={35} className="p-1"/> Linkedin</a>
             </div>
                 </div>
