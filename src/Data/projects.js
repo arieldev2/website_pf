@@ -17,14 +17,6 @@ export const projects = [
     },
     {
         id: 2,
-        img: "/images/softlight.png",
-        title: "Softlight Pro",
-        description: "Softlight Pro was created with SwiftUI, is a photo editor that allows you to make adjustments to your photos.",
-        url: "https://apps.apple.com/mx/app/softlight-pro/id1628457856",
-        buttonText: "Go to App Store"
-    },
-    {
-        id: 3,
         img: "/images/converter.png",
         title: "Reality OBJ - USDZ Converter",
         description: "Reality OBJ - USDZ Converter was created with Swift UIKit, you can convert obj files to usdz and update materials.",
@@ -32,7 +24,7 @@ export const projects = [
         buttonText: "Go to App Store"
     },
     {
-        id: 4,
+        id: 3,
         img: "/images/usdz.png",
         title: "USDZ 3D Viewer",
         description: "USDZ 3D Viewer was created with SwiftUI, you can view your 3D USDZ models, change the background and change the lighting with HDRI.",
@@ -41,7 +33,7 @@ export const projects = [
     },
   
     {
-        id: 5,
+        id: 4,
         img: "/images/observatory.png",
         title: "Observatory Presentation",
         description: "Observatory Presentation was created with SwiftUI for macOS, you can create minimalist presentations by adding text, 3d models, images and videos.",
