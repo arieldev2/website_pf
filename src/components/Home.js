@@ -18,7 +18,7 @@ export default function Home() {
                 <div className="row">
                 <div className="col-md ">
           <h1 className="mb-3 display-3">iOS developer</h1>
-                <p className="text-about">Hello, my name is Ariel Ortiz and I’m a iOS developer. I studied engineering in multimedia, I have experience creating mobile apps with Swift and Objective-C. I’m always learning new things to expand my knowledge.</p>
+                <p className="text-about">Hello, my name is Ariel Ortiz and I’m a iOS developer. I have experience creating mobile apps with Swift and Objective-C. I’m always learning new things to expand my knowledge.</p>
           </div>
   
           <div className="col-md text-center mt-4">
