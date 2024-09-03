@@ -1,7 +1,12 @@
 import React from "react";
 
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { projects } from "../Data/projects";
+import AppOne from "./appOne/AppOne";
+import AppTwo from "./appTwo/AppTwo";
+import AppThree from "./appThree/AppThree";
+import AppFour from "./appFour/AppFour";
+import AppFive from "./appFive/AppFive";
+import AppSix from "./appSix/AppSix";
 
 export default function Home() {
   return (
@@ -11,9 +16,11 @@ export default function Home() {
           <div className="col-md ">
             <h1 className="mb-3 display-3">iOS developer</h1>
             <p className="text-about">
-              Hello, my name is Ariel Ortiz and I’m a iOS developer. I have
-              experience creating mobile apps with Swift and Objective-C. I’m
-              always learning new things to expand my knowledge.
+              Hello, my name is Ariel Ortiz and I'm a dedicated iOS developer
+              with a passion for crafting innovative and user-friendly mobile
+              applications. With a strong foundation in iOS development, I
+              thrive on transforming ideas into robust, feature-rich apps that
+              enhance user experiences.
             </p>
           </div>
 
@@ -33,27 +40,23 @@ export default function Home() {
 
       <div className="container mt-top">
         <h1 className="text-white sub sub-s">iOS Projects</h1>
-
-        <div className="row mt-3">
-          {projects.map((item) => (
-            <div className="col-md-4 p-1" key={item.id}>
-              <div className="card card-color card-radius">
-                <img
-                  className="card-img-top card-radius-img"
-                  src={process.env.PUBLIC_URL + item.img}
-                  alt="..."
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-white">{item.title}</h5>
-                  <p className="text-white">{item.description}</p>
-
-                  <a href={item.url} className="btn btn-primary">
-                    {item.buttonText}
-                  </a>
-                </div>
-              </div>
-            </div>
-          ))}
+        <div className="margin-bottom-projects">
+          <AppOne />
+        </div>
+        <div className="margin-bottom-projects">
+          <AppTwo />
+        </div>
+        <div className="margin-bottom-projects">
+          <AppThree />
+        </div>
+        <div className="margin-bottom-projects">
+          <AppFour />
+        </div>
+        <div className="margin-bottom-projects">
+          <AppFive />
+        </div>
+        <div className="margin-bottom-projects">
+          <AppSix />
         </div>
       </div>
     </div>

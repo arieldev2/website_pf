@@ -87,13 +87,8 @@ p {
   background-color: gray;
 }
 
-.card-radius {
-  border-radius: 25px;
-}
-
-.card-radius-img {
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+.margin-bottom-projects {
+  margin-bottom: 150px;
 }
 
 @media (max-width: 768px) {
@@ -119,5 +114,74 @@ p {
 
   .sub-s {
     font-size: 30px;
+  }
+}
+/** grid **/
+.grid-info {
+  width: 100%;
+  max-width: 1500px;
+  height: 400px;
+  display: grid;
+  gap: 1.5vw;
+  padding: 1vw;
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "hero hero aside2"
+    "hero hero aside3";
+}
+
+.item-info {
+  background-color: rgb(32, 32, 32);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-info .item-info:nth-child(1) {
+  grid-area: hero;
+}
+.grid-info .item-info:nth-child(2) {
+  grid-area: aside2;
+}
+
+.grid-info .item-info:nth-child(3) {
+  grid-area: aside3;
+}
+
+.title-about {
+  font-size: 80px;
+}
+
+.desc-about {
+  font-size: 20px;
+  width: 80%;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .title-about {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-info {
+    width: 100%;
+    max-width: 1500px;
+    height: 700px;
+    display: grid;
+    gap: 1.5vw;
+    padding: 1vw;
+
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "hero"
+      "aside2"
+      "aside3";
   }
 }
