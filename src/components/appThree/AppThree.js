@@ -15,8 +15,8 @@ function AppThree() {
       </div>
       <div class="item">
         <p className="content">
-          Remove AI - Remove Objects was created with SwiftUI. Removes objects
-          of images with AI by masking the area.
+          Remove AI - Remove Objects was created with Swift UIKit. Removes
+          objects of images with AI by masking the area.
         </p>
         <a
           href="https://apps.apple.com/us/app/remove-ai-remove-objects/id6654893020"
