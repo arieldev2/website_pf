@@ -49,14 +49,17 @@ export default function Home() {
         <div className="margin-bottom-projects">
           <AppThree />
         </div>
+
+        {/* 
         <div className="margin-bottom-projects">
           <AppFour />
         </div>
-        <div className="margin-bottom-projects">
-          <AppFive />
-        </div>
+        */}
         <div className="margin-bottom-projects">
           <AppSix />
+        </div>
+        <div className="margin-bottom-projects">
+          <AppFive />
         </div>
       </div>
     </div>
