@@ -49,8 +49,8 @@
   -webkit-text-fill-color: transparent;
 }
 
-.wise_title {
-  font-size: 90px;
+.bass_title {
+  font-size: 100px;
   background: linear-gradient(to right, rgb(48, 48, 48), white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -72,8 +72,8 @@
   .app1_title2 {
     font-size: 45px;
   }
-  .wise_title {
-    font-size: 45px;
+  .bass_title {
+    font-size: 55px;
   }
 
   .usdz_title {

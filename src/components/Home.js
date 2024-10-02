@@ -50,11 +50,10 @@ export default function Home() {
           <AppThree />
         </div>
 
-        {/* 
         <div className="margin-bottom-projects">
           <AppFour />
         </div>
-        */}
+
         <div className="margin-bottom-projects">
           <AppSix />
         </div>
