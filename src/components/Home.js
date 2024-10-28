@@ -60,6 +60,7 @@ export default function Home() {
         <div className="margin-bottom-projects">
           <AppFive />
         </div>
+        {/* AR APP */}
       </div>
     </div>
   );
