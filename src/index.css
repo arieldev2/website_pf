@@ -13,12 +13,16 @@ body {
 
 /*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
 
+
+
+
 .bg-header {
   background-color: rgb(19, 19, 19);
 }
 
 .text-about {
-  font-size: 20px;
+  font-size: 30px;
+  color: rgb(189, 189, 189);
 }
 .align {
   align-items: center;

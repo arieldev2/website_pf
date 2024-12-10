@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="mar-b">
       <div className="container mt-5 ">
-        <div className="row">
+        <div className="row text-center">
           <div className="col-md ">
             <h1 className="mb-3 display-3">iOS developer</h1>
             <p className="text-about">
@@ -22,9 +22,7 @@ export default function Home() {
               thrive on transforming ideas into robust, feature-rich apps that
               enhance user experiences.
             </p>
-          </div>
-
-          <div className="col-md text-center mt-4">
+            <div className="col-md text-center mt-4">
             <a href="https://github.com/arieldev2" className="align fs-4">
               <FaGithub size={35} className="p-1" /> GitHub
             </a>
@@ -35,6 +33,9 @@ export default function Home() {
               <FaLinkedin size={35} className="p-1" /> Linkedin
             </a>
           </div>
+          </div>
+
+        
         </div>
       </div>
 
